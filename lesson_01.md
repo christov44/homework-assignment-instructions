@@ -37,5 +37,4 @@ end
   - For example `join_strings("hello", "dolly")` should return `"hello dolly"`.
 
 3. Write a method called 'old_enough_to_vote?' that does the following:
-  - Takes a integer year as a parameter and returns a "yes" if a person born in that year is old enough to vote
-  - and returns "no" if the person is not old enough to vote 
+  - Takes a integer year as a parameter and returns a "yes" if a person born in that year is old enough to vote or returns "no" if the person is not old enough to vote 
