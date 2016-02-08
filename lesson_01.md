@@ -33,14 +33,9 @@ end
   - Add a line that calls your add function with two values, stores the result in a variable, and then prints the result to the screen.
 
 2. Write a method, `join_strings` that does the following: 
-  - takes two string values and joins them together with a space in between, returning the result. 
+  - takes two string values as parameters and joins them together with a space in between, returning the result. 
   - For example `join_strings("hello", "dolly")` should return `"hello dolly"`.
 
-3. Answer the following question:
-  - What is the difference between `puts` and returning a value?
-
-
-### Recommended activity
-
-- Play around with [Try Ruby](http://tryruby.org/levels/1/challenges/0), and online interactive Ruby tutorial.
-- Take the [Ruby in 20 Minutes](https://www.ruby-lang.org/en/documentation/quickstart/) primer. This is introduce a new tool (IRB)
+3. Write a method called 'old_enough_to_vote?' that does the following:
+  - Takes a integer year as a parameter and returns a "yes" if a person born in that year is old enough to vote
+  - and returns "no" if the person is not old enough to vote 
