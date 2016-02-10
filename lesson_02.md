@@ -1,29 +1,28 @@
-## Lesson 01 Homework Assignment
+## Lesson 02 Homework Assignment
+
 
 ### Code Reading
 
 Add a comment (a line starting with `#` ) before each line explaining what it does. Add a comment before the method name explaining, in plain english, what the method does. Try copying and pasting this into a ruby file and modifying it to help you figure it out. Try adding "puts" lines in at different places to see what happens.
 
+
 ```ruby
-def full_name(first_name, last_name, title)
-  # Example comment line
 
-  name = nil
-
-  if title && first_name && last_name
-    name = title + " " + first_name + " " + last_name
-  elsif title && last_name
-    name = title + " " + last_name
-  elsif first_name && last_name
-    name = first_name + " " + last_name
-  elsif first_name
-    name = first_name
-  else
-    raise "Oh no, that doesn't look like a name"
+  def fizzbuzz(num)
+    case
+    when num % 15 == 0 then "FizzBuzz"
+    when num % 3  == 0 then "Fizz"
+    when num % 5  == 0 then "Buzz"
+    else num
+    end
   end
 
-  return name
-end
+  def fizz_buzz_to(limit)
+    1.upto(limit).each do |num|
+      puts fizzbuzz(num)
+    end
+  end
+
 ```
 
 ### Fix Broken Code
@@ -32,9 +31,14 @@ The following code contains some errors and some coding ettiquette issues. Fix a
 
 ```ruby
 
-def full_name(f, l)
-
+def area_of_triangle(b, h)
+  puts b x height / 2
 end
+
+base = 7
+height = 6
+
+puts area_of_triangle(height, height)
 
 ```
 
@@ -50,3 +54,9 @@ end
 
 3. Write a method called 'old_enough_to_vote?' that does the following:
   - Takes a integer year as a parameter and returns a "yes" if a person born in that year is old enough to vote or returns "no" if the person is not old enough to vote
+
+
+### Additional Weekend Assignment
+
+- Complete RubyMonk's **Ruby Primer** interactive tutorial found [here](https://rubymonk.com/learning/books/1-ruby-primer)
+- **Install Rails** - follow the instructions found [here](http://installrails.com/)
