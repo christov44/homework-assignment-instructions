@@ -34,8 +34,10 @@ The following code contains some errors and some coding ettiquette issues. Fix a
 ```ruby
 
 def full_name(f, l)
-
+  puts f + l
 end
+
+puts full_nam("bubba", "chuck")
 
 ```
 
@@ -51,3 +53,9 @@ end
 
 3. Write a method called 'old_enough_to_vote?' that does the following:
   - Takes a integer year as a parameter and returns a "yes" if a person born in that year is old enough to vote or returns "no" if the person is not old enough to vote
+
+
+### Reading/Active Learning Assignment
+
+- Complete RubyMonk's **Ruby Primer** interactive tutorial found [here](https://rubymonk.com/learning/books/1-ruby-primer)
+- **Install Rails** - follow the instructions found [here](http://installrails.com/)

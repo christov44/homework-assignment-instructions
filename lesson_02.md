@@ -11,10 +11,10 @@ Add a comment (a line starting with `#` ) before each line explaining what it do
 
   def fizzbuzz(num)
     case
-    when num % 15 == 0 then "FizzBuzz"
-    when num % 3  == 0 then "Fizz"
-    when num % 5  == 0 then "Buzz"
-    else num
+      when num % 15 == 0 then "FizzBuzz"
+      when num % 3  == 0 then "Fizz"
+      when num % 5  == 0 then "Buzz"
+      else num
     end
   end
 
@@ -51,9 +51,3 @@ puts area_of_triangle(height, height)
   - Add a method called "seat" that removes the first string (representing the party) from the **list** array, this method should return the newly updated **list** (with the name of the recently seated party removed)
   - Make sure you create a new instance of the Reservation class and call each method
   - Use puts to print the results of each method in the console
-
-
-### Additional Weekend Assignment
-
-- Complete RubyMonk's **Ruby Primer** interactive tutorial found [here](https://rubymonk.com/learning/books/1-ruby-primer)
-- **Install Rails** - follow the instructions found [here](http://installrails.com/)
